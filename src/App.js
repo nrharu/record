@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Top from "./component/top.js";
 
 function App() {
