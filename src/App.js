@@ -6,7 +6,7 @@ import SidemenuRight from "./component/sidemenu_right.js";
 const App = () => {
   return (
     <Router>
-      <header>
+      <header className="header">
         <p>record</p>
       </header>
       <Switch>
