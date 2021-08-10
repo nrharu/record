@@ -1,14 +1,21 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Top from "./component/top.js";
+import Main from "./component/main.js";
+import SidemenuLeft from "./component/sidemenu_left.js";
+import SidemenuRight from "./component/sidemenu_right.js";
 
-function App() {
+const App = () => {
   return (
     <Router>
+      <header>
+        <p>record</p>
+      </header>
       <Switch>
-        <Route path="/Top" component={Top}></Route>
+        <Route path="/Top">
+          <Main />
+        </Route>
       </Switch>
     </Router>
   );
-}
+};
 
 export default App;
