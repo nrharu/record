@@ -2,12 +2,24 @@
   box-sizing: border-box;
   list-style: none;
 }
-
+#root {
+  display: flex;
+}
 .header {
   position: fixed;
   top: 0;
   width: 100vw;
   display: flex;
   justify-content: center;
-  background-color: rgb(150, 146, 146);
+  // background-color: rgb(150, 146, 146);
+}
+.sidemenu_right_wrap {
+  height: 100vh;
+  background-color: yellow;
+}
+
+.sidemenu_left_wrap {
+  width: 100px;
+  height: 100vh;
+  background-color: blue;
 }
