@@ -4,7 +4,11 @@ const SidemenuRight = () => {
   const add_memo_page = history.push("/memo");
   return (
     <div className="sidemenu_right_wrap">
-      <input type="button" onClick={add_memo_page}></input>
+      <input
+        type="button"
+        onClick={add_memo_page}
+        className="sidemenu_right_change_memo_page_button"
+      ></input>
       <ul>
         <li></li>
         <li></li>
